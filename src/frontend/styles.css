@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Bariol';
+    src: url('./assets/fonts/bariol_regular-webfont.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Bariol', sans-serif;
+}
+
+.p-dialog-content {
+    overflow: hidden !important;
+}
